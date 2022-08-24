@@ -1,0 +1,868 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: E:\steamlibrary\steamapps\common\Portal 2\portal2\materials
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (4729 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 9 texinfos to 5
+Reduced 3 texdatas to 3 (74 bytes to 74)
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+
+nummapplanes:     (   138 / 65536 )
+nummapbrushes:    (    13 /  8192 )
+nummapbrushsides: (    78 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     1 /  1024 )
+num_entities:     (     3 / 16384 )
+
+0 seconds elapsed
+
+
+
+6 threads
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt
+ 256 portalclusters
+ 511 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.00%)
+Total clusters visible: 58641
+Average clusters visible: 229
+Building PAS...
+Average clusters audible: 256
+visdatasize:18330  compressed from 16384
+writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+2133 faces
+3972889 square feet [572096064.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2133 patches before subdivision
+119383 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8697415, max 1499
+transfer lists:  66.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0536 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 13/8192          156/98304    ( 0.2%) 
+brushsides              78/65536         624/524288   ( 0.1%) 
+planes                 138/65536        2760/1310720  ( 0.2%) 
+vertexes              2322/65536       27864/786432   ( 3.5%) 
+nodes                  783/65536       25056/2097152  ( 1.2%) 
+texinfos                 5/12288         360/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2133/65536      119448/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               28/65536        1568/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists        2133/0            8532/0        ( 0.0%) 
+leaves                 785/65536       25120/2097152  ( 1.2%) 
+leaffaces             2183/65536        4366/131072   ( 3.3%) 
+leafbrushes            503/65536        1006/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8956/512000      35824/2048000  ( 1.7%) 
+edges                 4511/256000      18044/1024000  ( 1.8%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     5888648/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18330/16777216 ( 0.1%) 
+entdata               [variable]         544/393216   ( 0.1%) 
+LDR ambient table      785/65536        3140/262144   ( 1.2%) 
+HDR ambient table      785/65536        3140/262144   ( 1.2%) 
+LDR leaf ambient       256/65536        7168/1835008  ( 0.4%) 
+HDR leaf ambient       785/65536       21980/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        4729/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 4578
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+4 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: E:\steamlibrary\steamapps\common\Portal 2\portal2\materials
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5121 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 9 texinfos to 5
+Reduced 3 texdatas to 3 (74 bytes to 74)
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+
+nummapplanes:     (   146 / 65536 )
+nummapbrushes:    (    13 /  8192 )
+nummapbrushsides: (    78 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     1 /  1024 )
+num_entities:     (     3 / 16384 )
+
+0 seconds elapsed
+
+
+
+6 threads
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt
+ 268 portalclusters
+ 564 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.00%)
+Total clusters visible: 62751
+Average clusters visible: 234
+Building PAS...
+Average clusters audible: 267
+visdatasize:20249  compressed from 21440
+writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+2171 faces
+3971913 square feet [571955584.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2171 patches before subdivision
+119549 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8958257, max 1516
+transfer lists:  68.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0551 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 13/8192          156/98304    ( 0.2%) 
+brushsides              78/65536         624/524288   ( 0.1%) 
+planes                 146/65536        2920/1310720  ( 0.2%) 
+vertexes              2389/65536       28668/786432   ( 3.6%) 
+nodes                  809/65536       25888/2097152  ( 1.2%) 
+texinfos                 5/12288         360/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2171/65536      121576/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               32/65536        1792/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists        2171/0            8684/0        ( 0.0%) 
+leaves                 811/65536       25952/2097152  ( 1.2%) 
+leaffaces             2213/65536        4426/131072   ( 3.4%) 
+leafbrushes            529/65536        1058/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9156/512000      36624/2048000  ( 1.8%) 
+edges                 4614/256000      18456/1024000  ( 1.8%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/32768         180/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           216/65536         432/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     6472324/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       20249/16777216 ( 0.1%) 
+entdata               [variable]         541/393216   ( 0.1%) 
+LDR ambient table      811/65536        3244/262144   ( 1.2%) 
+HDR ambient table      811/65536        3244/262144   ( 1.2%) 
+LDR leaf ambient       268/65536        7504/1835008  ( 0.4%) 
+HDR leaf ambient       811/65536       22708/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        5121/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 4686
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+4 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: E:\steamlibrary\steamapps\common\Portal 2\portal2\materials
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5121 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 9 texinfos to 5
+Reduced 3 texdatas to 3 (74 bytes to 74)
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+
+nummapplanes:     (   146 / 65536 )
+nummapbrushes:    (    13 /  8192 )
+nummapbrushsides: (    78 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     1 /  1024 )
+num_entities:     (     3 / 16384 )
+
+0 seconds elapsed
+
+
+
+6 threads
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt
+ 268 portalclusters
+ 564 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.00%)
+Total clusters visible: 62751
+Average clusters visible: 234
+Building PAS...
+Average clusters audible: 267
+visdatasize:20249  compressed from 21440
+writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+2171 faces
+3971913 square feet [571955584.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2171 patches before subdivision
+119549 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8958257, max 1516
+transfer lists:  68.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0538 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 13/8192          156/98304    ( 0.2%) 
+brushsides              78/65536         624/524288   ( 0.1%) 
+planes                 146/65536        2920/1310720  ( 0.2%) 
+vertexes              2389/65536       28668/786432   ( 3.6%) 
+nodes                  809/65536       25888/2097152  ( 1.2%) 
+texinfos                 5/12288         360/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2171/65536      121576/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               32/65536        1792/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists        2171/0            8684/0        ( 0.0%) 
+leaves                 811/65536       25952/2097152  ( 1.2%) 
+leaffaces             2213/65536        4426/131072   ( 3.4%) 
+leafbrushes            529/65536        1058/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9156/512000      36624/2048000  ( 1.8%) 
+edges                 4614/256000      18456/1024000  ( 1.8%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/32768         180/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           216/65536         432/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     6472324/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       20249/16777216 ( 0.1%) 
+entdata               [variable]         545/393216   ( 0.1%) 
+LDR ambient table      811/65536        3244/262144   ( 1.2%) 
+HDR ambient table      811/65536        3244/262144   ( 1.2%) 
+LDR leaf ambient       268/65536        7504/1835008  ( 0.4%) 
+HDR leaf ambient       811/65536       22708/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        5121/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 4686
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+4 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: E:\steamlibrary\steamapps\common\Portal 2\portal2\materials
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5121 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 9 texinfos to 5
+Reduced 3 texdatas to 3 (74 bytes to 74)
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+
+nummapplanes:     (   146 / 65536 )
+nummapbrushes:    (    13 /  8192 )
+nummapbrushsides: (    78 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     1 /  1024 )
+num_entities:     (     3 / 16384 )
+
+0 seconds elapsed
+
+
+
+6 threads
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt
+ 268 portalclusters
+ 564 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.00%)
+Total clusters visible: 62751
+Average clusters visible: 234
+Building PAS...
+Average clusters audible: 267
+visdatasize:20249  compressed from 21440
+writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+2171 faces
+3971913 square feet [571955584.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2171 patches before subdivision
+119549 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8958257, max 1516
+transfer lists:  68.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0567 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 13/8192          156/98304    ( 0.2%) 
+brushsides              78/65536         624/524288   ( 0.1%) 
+planes                 146/65536        2920/1310720  ( 0.2%) 
+vertexes              2389/65536       28668/786432   ( 3.6%) 
+nodes                  809/65536       25888/2097152  ( 1.2%) 
+texinfos                 5/12288         360/884736   ( 0.0%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2171/65536      121576/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               32/65536        1792/3670016  ( 0.0%) 
+facebrushes              0/0               0/0        ( 0.0%) 
+facebrushlists        2171/0            8684/0        ( 0.0%) 
+leaves                 811/65536       25952/2097152  ( 1.2%) 
+leaffaces             2213/65536        4426/131072   ( 3.4%) 
+leafbrushes            529/65536        1058/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9156/512000      36624/2048000  ( 1.8%) 
+edges                 4614/256000      18456/1024000  ( 1.8%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             18/32768         180/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           216/65536         432/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     6472324/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       20249/16777216 ( 0.1%) 
+entdata               [variable]         547/393216   ( 0.1%) 
+LDR ambient table      811/65536        3244/262144   ( 1.2%) 
+HDR ambient table      811/65536        3244/262144   ( 1.2%) 
+LDR leaf ambient       268/65536        7504/1835008  ( 0.4%) 
+HDR leaf ambient       811/65536       22708/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        5121/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 4686
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+4 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: E:\steamlibrary\steamapps\common\Portal 2\portal2\materials
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_landmark (-1088.00 4992.00 -105.07) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8766 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 10
+Reduced 4 texdatas to 4 (93 bytes to 93)
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+
+nummapplanes:     (   190 / 65536 )
+nummapbrushes:    (    22 /  8192 )
+nummapbrushsides: (   132 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     2 /  1024 )
+num_entities:     (     4 / 16384 )
+
+0 seconds elapsed
+
+
+
+6 threads
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt
+LoadPortals: couldn't read e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: E:\steamlibrary\steamapps\common\Portal 2\portal2\materials
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (-1152.00 448.00 65.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8766 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 10
+Reduced 4 texdatas to 4 (93 bytes to 93)
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+
+nummapplanes:     (   190 / 65536 )
+nummapbrushes:    (    22 /  8192 )
+nummapbrushsides: (   132 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     2 /  1024 )
+num_entities:     (     4 / 16384 )
+
+0 seconds elapsed
+
+
+
+6 threads
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt
+LoadPortals: couldn't read e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: E:\steamlibrary\steamapps\common\Portal 2\portal2\materials
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8734 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 12 texinfos to 9
+Reduced 4 texdatas to 4 (93 bytes to 93)
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+
+nummapplanes:     (   190 / 65536 )
+nummapbrushes:    (    22 /  8192 )
+nummapbrushsides: (   132 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     2 /  1024 )
+num_entities:     (     4 / 16384 )
+
+0 seconds elapsed
+
+
+
+6 threads
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt
+ 266 portalclusters
+ 550 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.00%)
+Total clusters visible: 59403
+Average clusters visible: 223
+Building PAS...
+Average clusters audible: 263
+visdatasize:20147  compressed from 21280
+writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+2164 faces
+3992685 square feet [574946624.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2164 patches before subdivision
+120822 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8882318, max 1495
+transfer lists:  67.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0555 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             132/65536        1056/524288   ( 0.2%) 
+planes                 190/65536        3800/1310720  ( 0.3%) 
+vertexes              2411/65536       28932/786432   ( 3.7%) 
+nodes                  833/65536       26656/2097152  ( 1.3%) 
+texinfos                 9/12288         648/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2164/65536      121184/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               50/65536        2800/3670016  ( 0.1%) 
+facebrushes            366/0             732/0        ( 0.0%) 
+facebrushlists        2164/0            8656/0        ( 0.0%) 
+leaves                 836/65536       26752/2097152  ( 1.3%) 
+leaffaces             2217/65536        4434/131072   ( 3.4%) 
+leafbrushes            588/65536        1176/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9200/512000      36800/2048000  ( 1.8%) 
+edges                 4656/256000      18624/1024000  ( 1.8%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            48/65536          96/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     6518452/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       20147/16777216 ( 0.1%) 
+entdata               [variable]         658/393216   ( 0.2%) 
+LDR ambient table      836/65536        3344/262144   ( 1.3%) 
+HDR ambient table      836/65536        3344/262144   ( 1.3%) 
+LDR leaf ambient       272/65536        7616/1835008  ( 0.4%) 
+HDR leaf ambient       836/65536       23408/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74490/0        ( 0.0%) 
+physics               [variable]        8734/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 4672
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+4 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: E:\steamlibrary\steamapps\common\Portal 2\portal2\materials
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8734 bytes)
+Error! To use model "models/props_bts/bts_clipboard.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_bts/bts_clipboard.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 14 texinfos to 11
+Reduced 6 texdatas to 6 (152 bytes to 152)
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+
+nummapplanes:     (   190 / 65536 )
+nummapbrushes:    (    22 /  8192 )
+nummapbrushsides: (   132 / 65536 )
+num_map_overlays: (     3 /   512 )
+nummodels:        (     2 /  1024 )
+num_entities:     (     5 / 16384 )
+
+0 seconds elapsed
+
+
+
+6 threads
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+reading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.prt
+ 266 portalclusters
+ 550 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (0.00%)
+Total clusters visible: 59403
+Average clusters visible: 223
+Building PAS...
+Average clusters audible: 263
+visdatasize:20147  compressed from 21280
+writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+2164 faces
+3992685 square feet [574946624.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2164 patches before subdivision
+120822 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8859716, max 1495
+transfer lists:  67.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0533 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             132/65536        1056/524288   ( 0.2%) 
+planes                 190/65536        3800/1310720  ( 0.3%) 
+vertexes              2411/65536       28932/786432   ( 3.7%) 
+nodes                  833/65536       26656/2097152  ( 1.3%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2164/65536      121184/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               50/65536        2800/3670016  ( 0.1%) 
+facebrushes            366/0             732/0        ( 0.0%) 
+facebrushlists        2164/0            8656/0        ( 0.0%) 
+leaves                 836/65536       26752/2097152  ( 1.3%) 
+leaffaces             2217/65536        4434/131072   ( 3.4%) 
+leafbrushes            588/65536        1176/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9200/512000      36800/2048000  ( 1.8%) 
+edges                 4656/256000      18624/1024000  ( 1.8%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            48/65536          96/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     6518452/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       20147/16777216 ( 0.1%) 
+entdata               [variable]        1189/393216   ( 0.3%) 
+LDR ambient table      836/65536        3344/262144   ( 1.3%) 
+HDR ambient table      836/65536        3344/262144   ( 1.3%) 
+LDR leaf ambient       272/65536        7616/1835008  ( 0.4%) 
+HDR leaf ambient       836/65536       23408/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1374     ( 0.1%) 
+pakfile               [variable]      118746/0        ( 0.0%) 
+physics               [variable]        8734/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 4672
+Writing e:\steamlibrary\steamapps\sourcemods\portal2 aperturerise\maps\intro_aperture_facility.bsp
+4 seconds elapsed

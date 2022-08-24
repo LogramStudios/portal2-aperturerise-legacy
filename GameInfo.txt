@@ -1,0 +1,22 @@
+"GameInfo"
+{
+    game         "Portal 2: Aperture's Rise"
+    title         "Portal 2: Aperture's Rise"
+    gamelogo     1
+    "icon"			"resource/icon"
+
+    SupportsDX8     0
+    SupportsXbox360 1
+
+    FileSystem
+    {
+        SteamAppId                620        // Portal 2 AppID
+        ToolsAppId                211        // Portal 2 Authoring Tools
+
+        SearchPaths
+        {
+            Game                |gameinfo_path|.
+            Game    portal2
+        }
+    }
+}

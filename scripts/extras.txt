@@ -1,0 +1,10 @@
+"Extras"
+{
+ "intro"
+ {
+  "title"  "Aperture's Founding"
+  "subtitle" "Aperture starts here"
+  "pic"  "vgui/chapters/chapter1"
+  "map" "intro_aperture_facility"
+ }
+}
