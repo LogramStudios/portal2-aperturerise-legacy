@@ -70,7 +70,7 @@ MapPlayOrder<- [
 "intro",	
 	"@test_dome_lift",		// first test chamber
 "1940_simpletest",
-	"@test_dome_lift",		// second simple test
+	"@arrival_teleport",		// second simple test
 "1940_oldpanel",	
 	"@test_dome_lift",		// old aperture panels
 "1940_faithplate",
