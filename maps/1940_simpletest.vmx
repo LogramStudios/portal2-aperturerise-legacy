@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8997"
-	"mapversion" "38"
+	"mapversion" "39"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "38"
+	"mapversion" "39"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2549,21 +2549,18 @@ entity
 		"logicalpos" "[0 500]"
 	}
 }
-hidden
+entity
 {
-	entity
+	"id" "1011"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"origin" "-169.865 -306.973 -439"
+	editor
 	{
-		"id" "1011"
-		"classname" "info_player_start"
-		"angles" "0 0 0"
-		"origin" "-169.865 -306.973 -439"
-		editor
-		{
-			"color" "0 255 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-			"logicalpos" "[0 7500]"
-		}
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
 	}
 }
 entity
@@ -3267,7 +3264,7 @@ entity
 	"id" "437"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances/transitions/arrival_departure_transition_ents.vmf"
+	"file" "instances/transitions/p2ar_arrival_departure_transition_ents.vmf"
 	"fixup_style" "0"
 	"replace01" "$arrival_video ???"
 	"replace02" "$departure_video ???"
@@ -3338,8 +3335,4 @@ cameras
 cordons
 {
 	"active" "0"
-}
-quickhide
-{
-	"count" "2"
 }
