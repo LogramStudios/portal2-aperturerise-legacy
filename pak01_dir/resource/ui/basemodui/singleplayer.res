@@ -36,7 +36,7 @@
 	{
 		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnNewGame"
-		"command"				"OpenNewGameDialog"
+		"command"				"Extras"
 		"xpos"					"0"
 		"ypos"					"50"
 		"wide"					"0"

@@ -1,0 +1,140 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: E:\steamlibrary\steamapps\common\Portal 2\portal2\materials
+Loading e:\steamlibrary\steamapps\sourcemods\portal2-aperturerise\maps\underground_fling_test.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing e:\steamlibrary\steamapps\sourcemods\portal2-aperturerise\maps\underground_fling_test.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (31214 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 167 texinfos to 82
+Reduced 12 texdatas to 12 (358 bytes to 358)
+Writing e:\steamlibrary\steamapps\sourcemods\portal2-aperturerise\maps\underground_fling_test.bsp
+
+nummapplanes:     (   268 / 65536 )
+nummapbrushes:    (    69 /  8192 )
+nummapbrushsides: (   428 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (    26 /  1024 )
+num_entities:     (    67 / 16384 )
+
+0 seconds elapsed
+
+
+
+6 threads
+reading e:\steamlibrary\steamapps\sourcemods\portal2-aperturerise\maps\underground_fling_test.bsp
+reading e:\steamlibrary\steamapps\sourcemods\portal2-aperturerise\maps\underground_fling_test.prt
+  40 portalclusters
+  72 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1026
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 40
+visdatasize:735  compressed from 640
+writing e:\steamlibrary\steamapps\sourcemods\portal2-aperturerise\maps\underground_fling_test.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\sourcemods\portal2-aperturerise\maps\underground_fling_test.bsp
+Loaded alpha texture materials\Metal\backstage_grate_002b.vtf
+312 faces
+25364 square feet [3652528.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+312 patches before subdivision
+3614 patches after subdivision
+7 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 425053, max 313
+transfer lists:   3.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(18969, 17133, 14614)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1480, 1470, 982)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(154, 150, 85)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(14, 14, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0006 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/1024         1248/49152    ( 2.5%) 
+brushes                 69/8192          828/98304    ( 0.8%) 
+brushsides             428/65536        3424/524288   ( 0.7%) 
+planes                 268/65536        5360/1310720  ( 0.4%) 
+vertexes               466/65536        5592/786432   ( 0.7%) 
+nodes                  231/65536        7392/2097152  ( 0.4%) 
+texinfos                82/12288        5904/884736   ( 0.7%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  312/65536       17472/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              207/65536       11592/3670016  ( 0.3%) 
+facebrushes             13/0              26/0        ( 0.0%) 
+facebrushlists         312/0            1248/0        ( 0.0%) 
+leaves                 258/65536        8256/2097152  ( 0.4%) 
+leaffaces              347/65536         694/131072   ( 0.5%) 
+leafbrushes            137/65536         274/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2184/512000       8736/2048000  ( 0.4%) 
+edges                 1276/256000       5104/1024000  ( 0.5%) 
+LDR worldlights          7/8192          700/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            66/65536         132/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      242356/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         735/16777216 ( 0.0%) 
+entdata               [variable]       20932/393216   ( 5.3%) 
+LDR ambient table      258/65536        1032/262144   ( 0.4%) 
+HDR ambient table      258/65536        1032/262144   ( 0.4%) 
+LDR leaf ambient       676/65536       18928/1835008  ( 1.0%) 
+HDR leaf ambient       258/65536        7224/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/724      ( 0.1%) 
+pakfile               [variable]      105758/0        ( 0.0%) 
+physics               [variable]       31214/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 732
+Writing e:\steamlibrary\steamapps\sourcemods\portal2-aperturerise\maps\underground_fling_test.bsp
+0 seconds elapsed
